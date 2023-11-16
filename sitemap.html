@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Index Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Unity Dashboard Kit - Gaming">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ui8">
+    <meta name="twitter:title" content="Unity Dashboard Kit - Gaming">
+    <meta name="twitter:description" content="Ultimate Social Gaming Dashboard Kit">
+    <meta name="twitter:creator" content="@ui8">
+    <meta name="twitter:image" content="https://ui8-unity-gaming.herokuapp.com/img/twitter-card.jpg">
+    <meta property="og:title" content="Unity">
+    <meta property="og:type" content="Article">
+    <meta property="og:url" content="https://ui8-unity-gaming.herokuapp.com/">
+    <meta property="og:image" content="https://ui8-unity-gaming.herokuapp.com/img/fb-og-image.jpg">
+    <meta property="og:description" content="Ultimate Social Gaming Dashboard Kit">
+    <meta property="og:site_name" content="Unity Dashboard Kit - Gaming">
+    <meta property="fb:admins" content="132951670226590">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:ital,wght@0,500;1,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <script>var viewportmeta = document.querySelector('meta[name="viewport"]');
+if (viewportmeta) {
+  if (screen.width < 375) {
+    var newScale = screen.width / 375;
+    viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+  } else {
+    viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+  }
+}</script>
+  </head>
+  <body>
+    <script>console.log(localStorage.getItem('darkMode'));
+if (localStorage.getItem('darkMode') === "on") {
+		document.body.classList.add("dark");
+		document.addEventListener("DOMContentLoaded", function() {
+		  document.querySelector('.js-switch-theme input').checked = true;
+		});
+}
+</script>
+    <ul style="padding: 120px 30px;">
+      <li style="margin-bottom: 20px;"><a href="index.html">new-feed</a></li>
+      <li style="margin-bottom: 20px;"><a href="trending.html">trending</a></li>
+      <li style="margin-bottom: 20px;"><a href="following.html">following</a></li>
+      <li style="margin-bottom: 20px;"><a href="your-videos.html">your-videos</a></li>
+      <li style="margin-bottom: 20px;"><a href="upload-videos.html">upload-videos</a></li>
+      <li style="margin-bottom: 20px;"><a href="playlist.html">playlist</a></li>
+      <li style="margin-bottom: 20px;"><a href="chat.html">chat</a></li>
+      <li style="margin-bottom: 20px;"><a href="channel-profile.html">channel-profile</a></li>
+      <li style="margin-bottom: 20px;"><a href="browse.html">browse</a></li>
+      <li style="margin-bottom: 20px;"><a href="video-live.html">video-live</a></li>
+      <li style="margin-bottom: 20px;"><a href="video-normal.html">video-normal</a></li>
+      <li style="margin-bottom: 20px;"><a href="sign-in.html">sign-in</a></li>
+      <li style="margin-bottom: 20px;"><a href="sign-up.html">sign-up</a></li>
+      <li style="margin-bottom: 20px;"><a class="js-popup-open" href="#popup-stories">stories</a></li>
+      <li style="margin-bottom: 20px;"><a href="channel-analytics.html">channel-analytics</a></li>
+    </ul>
+    <div class="popup popup_stories mfp-hide" id="popup-stories">
+      <div class="stories">
+        <div class="stories__container">
+          <div class="stories__slider js-slider-stories">
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup popup_settings mfp-hide" id="popup-settings">
+      <form class="popup__form">
+        <div class="popup__title h6">Account Settings</div>
+        <div class="popup__tags"><a class="popup__tag active" href="#">Profile</a><a class="popup__tag" href="#">Password</a><a class="popup__tag" href="#">Email</a><a class="popup__tag" href="#">Notification</a><a class="popup__tag" href="#">Settings</a></div>
+        <div class="popup__field field mobile-show">
+          <div class="field__wrap"><select class="field__select">
+              <option>Your Profile</option>
+              <option>Password</option>
+              <option>Channels</option>
+              <option>Apps</option>
+              <option>Data Export</option>
+            </select></div>
+        </div>
+        <div class="popup__user">
+          <div class="popup__title h6 mobile-show">Your Profile</div>
+          <div class="popup__category caption-sm">Your Avatar</div>
+          <div class="popup__line">
+            <div class="popup__ava"><img class="popup__pic" src="img/avatar.png" alt=""></div>
+            <div class="popup__details">
+              <div class="popup__btns">
+                <div class="popup__loading"><input class="popup__file" type="file"><button class="popup__btn btn btn_purple">Upload New</button></div><button class="popup__btn btn btn_gray">Delete Avatar</button>
+              </div>
+              <div class="popup__text">Avatar help your teammates recognize you in Unity.</div>
+            </div>
+          </div>
+        </div>
+        <div class="popup__fieldset">
+          <div class="popup__row">
+            <div class="popup__field field">
+              <div class="field__label">Your Full Name</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+            <div class="popup__field field">
+              <div class="field__label">Display Name</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+          </div>
+          <div class="popup__row">
+            <div class="popup__field field">
+              <div class="field__label">Role</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+            <div class="popup__field field">
+              <div class="field__label">Location</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+          </div>
+          <div class="popup__row">
+            <div class="popup__field field">
+              <div class="field__label">Role</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+            <div class="popup__field field">
+              <div class="field__label">Team</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+          </div>
+          <div class="popup__field field">
+            <div class="field__label">Bio</div>
+            <div class="field__wrap"><textarea class="field__textarea"></textarea></div>
+          </div>
+        </div><button class="popup__btn btn btn_purple" type="submit">Update Profile</button>
+      </form>
+    </div>
+    <div class="popup popup_stories mfp-hide" id="popup-stories">
+      <div class="stories">
+        <div class="stories__container">
+          <div class="stories__slider js-slider-stories">
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+            <div class="stories__slide">
+              <div class="stories__item" style="background-image: url('img/stories-pic.png');">
+                <div class="stories__progress">
+                  <div class="stories__line active"></div>
+                  <div class="stories__line"></div>
+                </div><a class="stories__user" href="#">
+                  <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
+                  <div class="stories__desc">
+                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
+                    <div class="stories__game">Call of Duty</div>
+                    <div class="status orange">2.8K viewers</div>
+                  </div>
+                </a>
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                      <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
+                    </svg></button></form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- scripts-->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/svg4everybody.min.js"></script>
+    <script src="js/lib/slick.min.js"></script>
+    <script src="js/lib/apexcharts.min.js"></script>
+    <script src="js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="js/lib/jquery.nice-select.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/charts.js"></script>
+  </body>
+</html>
